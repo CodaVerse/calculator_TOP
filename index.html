@@ -1,0 +1,209 @@
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <header id="header">
+    The Codaverse Calculator
+    <nav></nav>
+  </header>
+  <main>
+    <h1 id="game-title"></h1>
+    <div id="calc-body">
+      <div id="topDiv">
+        <div id="odinsDEPOT">odinsDEPOT</div>
+        <div id="solar">
+          <div class="solar-square"></div>
+          <div class="solar-square-inner-left"></div>
+          <div class="solar-square-inner-right"></div>
+          <div class="solar-square"></div>
+        </div>
+      </div>
+      <div id="lcd"></div>
+      <div id="breakline"></div>
+      <div id="all-buttons">
+        <div id="row1" class="rows">
+          <button
+            id="on-clear"
+            class="on-clear"
+            value=""
+            onclick="document.getElementById('kick').play();"
+          >
+            ON/C
+          </button>
+          <button
+            id="sign"
+            class="operatorButtons"
+            value="+/-"
+            onclick="document.getElementById('kick').play();"
+          >
+            +/-
+          </button>
+          <button
+            id="percent"
+            class="operatorButtons"
+            value="%"
+            onclick="document.getElementById('kick').play();"
+          >
+            %
+          </button>
+          <button
+            id="backSpace"
+            class="operatorButtons"
+            value="backSpace"
+            onclick="document.getElementById('kick').play();"
+          >
+            ◀
+          </button>
+        </div>
+        <div id="row2" class="rows">
+          <button
+            id="seven"
+            class="numbers-buttons"
+            value="7"
+            onclick="document.getElementById('kick').play();"
+          >
+            7
+          </button>
+          <button
+            id="eight"
+            class="numbers-buttons"
+            value="8"
+            onclick="document.getElementById('kick').play();"
+          >
+            8
+          </button>
+          <button
+            id="nine"
+            class="numbers-buttons"
+            value="9"
+            onclick="document.getElementById('kick').play();"
+          >
+            9
+          </button>
+          <button
+            id="divide"
+            class="operatorButtons"
+            value="÷"
+            onclick="document.getElementById('kick').play();"
+          >
+            ÷
+          </button>
+        </div>
+        <div id="row3" class="rows">
+          <button
+            id="four"
+            class="numbers-buttons"
+            value="4"
+            onclick="document.getElementById('kick').play();"
+          >
+            4
+          </button>
+          <button
+            id="five"
+            class="numbers-buttons"
+            value="5"
+            onclick="document.getElementById('kick').play();"
+          >
+            5
+          </button>
+          <button
+            id="six"
+            class="numbers-buttons"
+            value="6"
+            onclick="document.getElementById('kick').play();"
+          >
+            6
+          </button>
+          <button
+            id="multiply"
+            class="operatorButtons"
+            value="*"
+            onclick="document.getElementById('kick').play();"
+          >
+            x
+          </button>
+        </div>
+        <div id="row4" class="rows">
+          <button
+            id="one"
+            class="numbers-buttons"
+            value="1"
+            onclick="document.getElementById('kick').play();"
+          >
+            1
+          </button>
+          <button
+            id="two"
+            class="numbers-buttons"
+            value="2"
+            onclick="document.getElementById('kick').play();"
+          >
+            2
+          </button>
+          <button
+            id="three"
+            class="numbers-buttons"
+            value="3"
+            onclick="document.getElementById('kick').play();"
+          >
+            3
+          </button>
+          <button
+            id="subtract"
+            class="operatorButtons"
+            value="-"
+            onclick="document.getElementById('kick').play();"
+          >
+            -
+          </button>
+        </div>
+        <div id="row5" class="rows">
+          <button
+            id="zero"
+            class="numbers-buttons"
+            value="0"
+            onclick="document.getElementById('kick').play();"
+          >
+            0
+          </button>
+          <button
+            id="period"
+            class="numbers-buttons"
+            value="."
+            onclick="document.getElementById('kick').play();"
+          >
+            .
+          </button>
+          <button
+            id="equals"
+            value=""
+            onclick="document.getElementById('kick').play();"
+          >
+            =
+          </button>
+          <div id="plus-sign">
+            <button
+              id="plus"
+              class="operatorButtons"
+              value="+"
+              onclick="document.getElementById('kick').play();"
+            >
+              +
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <audio id="kick" src="Sounds/Mouse Click Fast.wav" preload="auto"></audio>
+  </main>
+  <footer>Last updated: 19-August-2021</footer>
+
+  <script src="script.js"></script>
+</body>
