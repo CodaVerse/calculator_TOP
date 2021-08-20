@@ -152,7 +152,7 @@ table {
   border-radius: 15px;
   box-shadow: 1px 10px 20px 10px black;
   background-color: rgb(192, 147, 147);
-  background-image: url("/Images/green-cup.png");
+  background-image: url("../Images/green-cup.png");
 }
 
 #divide {
